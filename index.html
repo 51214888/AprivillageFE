@@ -1,0 +1,1893 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apprivilege</title>
+    <!---------- BOOTSTRAP LINK ------>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-------- FONT AWSEOME ----------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- FOR OWL CARESOUL -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- AOS Animation link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- CUSTOM SCSS------- -->
+    <link rel="stylesheet" href="css/Style.scss" />
+    <link rel="stylesheet" href="css/Style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-------- HEADER SECTION START -------->
+    <header class="nav-bg">
+      <nav class="navbar navbar-expand-lg navbar-light container-fluid p-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="images/Apprivilege_logo.png"
+              alt="logo"
+              class="img-fluid"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse navbar"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 apri-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Platform</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Apps</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Customers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+            </ul>
+            <form class="d-flex nav-btn">
+              <button class="btn" type="submit">Request demo</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="explore_more_btn">
+      <a href="#" class="go-down-btn bubble" title="Scroll down">
+        <svg
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          width="100px"
+          height="100px"
+          viewBox="0 0 100 100"
+          enable-background="new 0 0 100 100"
+          xml:space="preserve"
+        >
+          <path
+            id="textPath"
+            fill="none"
+            d="M89.322,50.197c0,22.09-17.91,40-40,40c-22.089,0-40-17.91-40-40 c0-22.089,17.911-40,40-40C71.412,10.197,89.322,28.108,89.322,50.197z"
+          />
+          <text>
+            <textPath xlink:href="#textPath">
+              <tspan x="12">EXPLORE MORE</tspan>
+              <tspan x="65" dx="30">EXPLORE MORE</tspan>
+              <tspan x="120" dx="60">EXPLORE MORE</tspan>
+            </textPath>
+          </text>
+        </svg>
+        <div
+          class="hero-mouse__arrow"
+          style="top: 0; right: 0; left: 0; width: 100%; /* height: 130px; */"
+        >
+          <div class="icon w-embed">
+            <svg
+              width="100%"
+              viewBox="0 0 38 38"
+              xmlns="http://www.w3.org/2000/svg"
+              style="width: 50px; fill: #fff"
+            >
+              <path
+                d="M19.7918 3.16699C20.2291 3.16699 20.5835 3.52143 20.5835 3.95866V29.5612L27.6135 22.5153C27.7622 22.3655 27.9645 22.2812 28.1756 22.2812C28.3867 22.2812 28.589 22.3655 28.7377 22.5153L29.846 23.6395C29.9959 23.7881 30.0802 23.9905 30.0802 24.2016C30.0802 24.4127 29.9959 24.615 29.846 24.7637L20.1402 34.4853C19.9177 34.7081 19.6158 34.8334 19.301 34.8337H18.6993C18.3852 34.83 18.0846 34.7052 17.8602 34.4853L8.15434 24.7637C8.00447 24.615 7.92017 24.4127 7.92017 24.2016C7.92017 23.9905 8.00447 23.7881 8.15434 23.6395L9.27851 22.5153C9.42443 22.3664 9.62416 22.2825 9.83267 22.2825C10.0412 22.2825 10.2409 22.3664 10.3868 22.5153L17.4168 29.5612V3.95866C17.4168 3.52143 17.7713 3.16699 18.2085 2.16699H19.7918Z"
+                fill="currentColor"
+                style="fill: #fff"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-------- HEADER SECTION END -------->
+    <!-------- MAIN SECTION START -------->
+    <main>
+      <div id="preloader">
+        <div id="status">&nbsp;</div>
+        <!-- <div class="loader">Loading</div> -->
+      </div>
+      <!-- <div class="container rotating-text-wrapper">
+      <h1 id="text-anim">I'm a text with elastic effect</h1>
+    </div> -->
+
+      <div class="banner-section">
+        <div class="header-video">
+          <video
+            class="vedio-play"
+            src="images/veasy-1.mp4"
+            loop
+            muted
+            autoplay
+          ></video>
+        </div>
+        <div class="container after-video-sec">
+          <!-- <h2 class="cssanimation text-anim" id="text-anim">
+              Put <strong> smart technology </strong> at the heart of your
+              entire operation
+            </h2> -->
+
+          <div class="home d-none">
+            <h2 id="resizing-h3" class="">
+              <span>
+                <div class="stage">
+                  <div class="cubespinner">
+                    <div class="face1">
+                      Elevate brand loyalty with a bespoke
+                      <strong>community app</strong>
+                    </div>
+                    <div class="face2">
+                      Discover the future of <strong>brand engagement</strong>
+                    </div>
+                    <div class="face3">
+                      Personalize brand experience to build
+                      <strong>lasting impressions</strong>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </h2>
+          </div>
+          <div class="slider">
+            <h2 class="caption text-anim">
+              <!-- We build -->
+              <div class="text-box">
+                <div>
+                  Elevate brand loyalty with a bespoke
+                  <strong>community app</strong>
+                </div>
+                <div>
+                  Discover the future of <strong>brand engagement</strong>
+                </div>
+                <div>
+                  Personalize brand experience to build
+                  <strong>lasting impressions</strong>
+                </div>
+              </div>
+            </h2>
+          </div>
+        </div>
+        <div class="container-fluid v-parent">
+          <div class="bg-video-wrap">
+            <div
+              class="play-icon"
+              id="play"
+              class=""
+              href="javascript:void(0);"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="modal-text">
+              <h2>Watch Apprivilege</h2>
+              <h2> <span>in </span><em class="italic">action</em></h2>
+            </div>
+         
+            <video
+              class="vedio-play"
+              src="https://uploads-ssl.webflow.com/62a6e21010ae344f137a2769/632be42d5b29090424fbd579_digivalet-compressred-demo-video-transcode.mp4"
+              loop
+              muted
+              autoplay
+            ></video>
+          </div>
+        </div>
+        <div class="company-slider W-100 mt-4">
+          <marquee width="100%" direction="left" height="100px">
+            <div class="company-icon">
+              <img
+                src="images/blom.PNG"
+                alt="blombreg-logo"
+                class="img-fluid"
+              />
+              <img
+                src="images/business-insider.PNG"
+                alt="business insider"
+                class="img-fluid"
+              />
+              <img
+                src="images/forbes.PNG"
+                alt="forbes-logo"
+                class="img-fluid"
+              />
+            </div>
+          </marquee>
+        </div>
+        <!-- <div class="owl-custom owl-carousel  owl-theme mt-4">
+        <div class="company-slider">
+          <div class="item">
+            <div class="company-icon">
+              <img src="images/blom.PNG" alt="blombreg-logo" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="company-slider">
+          <div class="item">
+            <div class="company-icon">
+              <img src="images/business-insider.PNG" alt="business insider" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="company-slider">
+          <div class="item">
+            <div class="company-icon">
+              <img src="images/forbes.PNG" alt="forbes-logo" class="img-fluid">
+            </div>
+          </div>
+        </div>
+    </div> -->
+        <!-- cards section -->
+        <div class="card-section mt-5" data-aos="fade-up">
+          <h4 class="mt-4"><b>Experience the epitome of brand loyalty</b></h4>
+          <h4 class="color-text mb-5" style="font-size: 50px">
+            Develop your own social community app<br />
+            and unlock the key to true brand prestige.
+          </h4>
+        </div>
+        <div class="container">
+          <!-- card-1 -->
+          <div class="promo-card mb-5 fee-gouging">
+            <div class="mb-5">
+              <div class="row">
+                <div class="col-md-6 mob-width">
+                  <div class="promocard-detail">
+                    <div class="innner-detail">
+                      <h5><b>Elevate Brand Loyalty</b></h5>
+                      <br />
+                      <p style="font-size: 30px">
+                        Empower your brand with a custom social community app
+                        that fosters lasting connections and exudes prestige.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mob-width">
+                  <div class="innner-detail-img">
+                    <img
+                      src="images/mobile-1.png"
+                      alt="moblie"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="promo-card mb-5 z-index-0 snubed-artist">
+            <div class="rw">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="promocard-detail">
+                    <div class="innner-detail">
+                      <h5>Bespoke Community Development</h5>
+                      <p>
+                        Tailor exclusive social networks to your brand's unique
+                        needs with personalised products and experiences through
+                        a custom app.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="innner-detail-img">
+                    <img
+                      src="images/iphone-1.png"
+                      alt="moblie"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div class="promo-card mb-5 z-index-0 Transfer-risk">
+            <div class="rw">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="promocard-detail" data-aos="fade-up">
+                    <div class="innner-detail">
+                      <h5>Privacy, Exclusivity & Integration</h5>
+                      <p>
+                        Build private loyalty platforms that integrate
+                        seamlessly, providing exceptional luxury and an
+                        unmatched user experience.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="innner-detail-img">
+                    <img
+                      src="images/preview-mob.png"
+                      alt="moblie"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-4 -->
+          <div class="promo-card mb-5 z-index-0 navigation">
+            <div class="rw">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="promocard-detail">
+                    <div class="innner-detail">
+                      <h5>Own Your Community</h5>
+                      <p>
+                        Take control of your brand's data, content, and revenue,
+                        and embrace your brand's full potential with your own
+                        exclusive loyalty platform.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="innner-detail-img">
+                    <img
+                      src="images/preview-mob.png"
+                      alt="moblie"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4 get-stable-card-div">
+            <div
+              class="col-6 mob-width d-flex justify-content-center align-items-center"
+            >
+              <div class="get-sable" data-aos="fade-up">
+                <h2 class="heading-xsmall">
+                  Experience
+                  <span class="text-color-accent1"
+                    >the Privilege of Innovation.</span
+                  >
+                </h2>
+                <p>Unlock the Potential of Your Brand with Apprivilege:</p>
+                <button class="mt-4">Request A Demo</button>
+              </div>
+            </div>
+            <div class="col-6 mob-width">
+              <div class="get-sable mt-5">
+                <div class="d-flex justify-content-center">
+                  <img
+                    src="images/clover_lefttop.png"
+                    alt=""
+                    class="img-fluid"
+                    data-aos="fade-down"
+                  />
+                  <img
+                    src="images/clover_righttop.png"
+                    alt=""
+                    class="img-fluid"
+                    data-aos="fade-right"
+                  />
+                </div>
+                <div class="d-flex justify-content-center">
+                  <img
+                    src="images/clover_leftbottom.png"
+                    alt=""
+                    class="img-fluid"
+                    data-aos="fade-up"
+                  />
+                  <img
+                    src="images/clover_rightbottom.png"
+                    alt=""
+                    class="img-fluid"
+                    data-aos="fade-left"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row p-5 vertical-row">
+            <div class="col-6 mob-width" data-aos="fade-up">
+              <div class="verticals">
+                <h1>Inspire Connection, Forge Loyalty</h1>
+              </div>
+            </div>
+            <div class="col-6 mob-width">
+              <div class="vertical-detail" data-aos="fade-up">
+                <p>
+                  Build an exclusive social community app that forges lasting
+                  relationships with your most valuable clients and fans. Offer
+                  personalised content, unparalleled brand access, and a
+                  user-friendly platform that seamlessly integrates with
+                  existing systems to create an unforgettable brand experience
+                  and foster customer loyalty.
+                </p>
+                <button>EXPLORE VERTICALS</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!------------ cARD SECTION ------------>
+
+        <div class="container overflow-hidden factsContainer d-none">
+          <div
+            class="d-flex p-5 mobile-flex-wrap card-mobile-padding tablet-wrap factsContainer_sm"
+            id="squares"
+          >
+            <div class="image-card mb-5 fact">
+              <div class="z-index-9" data-aos="fade-up">
+                <h4>Hospitality</h4>
+                <p>
+                  An unforgettable guest experience for hotels, casinos &
+                  cruises
+                </p>
+              </div>
+              <div class="image-video">
+                <video
+                  class="vedio-play"
+                  src="https://uploads-ssl.webflow.com/62a6e21010ae344f137a2769/62df788d8c33b8614696c2ff_shutterstock_1009352120-transcode.mp4"
+                  loop
+                  muted
+                  autoplay
+                ></video>
+              </div>
+              <div class="card-back-image"></div>
+            </div>
+            <!-- healthcare card-->
+            <div class="image-card mb-5 pink-card fact">
+              <div class="z-index-9" data-aos="fade-up">
+                <h4>Healthcare</h4>
+                <p>
+                  Making life better for patients, their loved ones and hospital
+                  teams
+                </p>
+              </div>
+              <div class="image-video">
+                <video
+                  class="vedio-play"
+                  src="https://uploads-ssl.webflow.com/62a6e21010ae344f137a2769/62df788d8c33b8614696c2ff_shutterstock_1009352120-transcode.mp4"
+                  loop
+                  muted
+                  autoplay
+                ></video>
+              </div>
+              <div class="card-back-image-2 pink-card-img"></div>
+            </div>
+            <!-- living card -->
+            <div class="image-card navy-blue-card mb-5 fact">
+              <div class="z-index-9" data-aos="fade-up">
+                <h4>Living</h4>
+                <p>The ultimate residential and smart workplace lifestyle</p>
+              </div>
+              <div class="image-video">
+                <video
+                  class="vedio-play"
+                  src="https://uploads-ssl.webflow.com/62a6e21010ae344f137a2769/62df788d8c33b8614696c2ff_shutterstock_1009352120-transcode.mp4"
+                  loop
+                  muted
+                  autoplay
+                ></video>
+              </div>
+              <div class="card-back-image blue-card-img"></div>
+            </div>
+            <!-- destination card -->
+            <div class="image-card mb-5 brown-card fact">
+              <div class="z-index-9" data-aos="fade-up">
+                <h4>Destinations</h4>
+                <p>Giving large mixed-use developments their own super-app</p>
+              </div>
+              <div class="image-video">
+                <video
+                  class="vedio-play"
+                  src="https://uploads-ssl.webflow.com/62a6e21010ae344f137a2769/62df788d8c33b8614696c2ff_shutterstock_1009352120-transcode.mp4"
+                  loop
+                  muted
+                  autoplay
+                ></video>
+              </div>
+              <div class="card-back-image brown-card-img"></div>
+            </div>
+          </div>
+        </div>
+        <!-- partner cards -->
+        <div class="container mt-5">
+          <div class="row mb-5">
+            <div class="col-3 mob-width tablet-width">
+              <!-- aman card -->
+              <div class="partner-card partner-card-custom" data-aos="fade-up">
+                <div class="black-overlay"></div>
+                <div class="logo-company">
+                  <img src="images/aman-logo.svg" alt="amani-logo" />
+                </div>
+              </div>
+              <!-- aman card -->
+              <div class="winter-card partner-card-custom" data-aos="fade-up">
+                <div class="black-overlay"></div>
+                <div class="logo-company">
+                  <img src="images/winter-logo.svg" alt="amani-logo" />
+                </div>
+              </div>
+            </div>
+            <!-- col-2 -->
+            <div class="col-3 mob-width tablet-width">
+              <!-- armani -->
+              <div
+                class="armani-card partner-card-custom margin-top-6rem"
+                data-aos="fade-up"
+              >
+                <div class="black-overlay"></div>
+                <div class="logo-company armani-logos">
+                  <img src="images/armani-logo.svg" alt="amani-logo" />
+                </div>
+              </div>
+              <!-- stergis -->
+              <div
+                class="stergis-card partner-card-custom mt-5"
+                data-aos="fade-up"
+              >
+                <div class="black-overlay"></div>
+                <div class="logo-company resturant-logo">
+                  <img src="images/stergis-log.svg" alt="amani-logo" />
+                </div>
+              </div>
+            </div>
+            <!-- col-3 -->
+            <div class="col-3 mob-width tablet-width">
+              <div class="rafel-card partner-card-custom" data-aos="fade-up">
+                <div class="black-overlay"></div>
+                <div class="logo-company resturant-logo">
+                  <img src="images/rafel-logo.svg" alt="amani-logo" />
+                </div>
+              </div>
+              <div class="bavlgari-card partner-card-custom" data-aos="fade-up">
+                <div class="black-overlay"></div>
+                <div class="logo-company">
+                  <img src="images/bavlgari-logo.svg" alt="amani-logo" />
+                </div>
+              </div>
+            </div>
+            <!-- col-4 -->
+            <div class="col-3 mob-width tablet-width">
+              <div
+                class="whym-card partner-card-custom margin-top-6rem"
+                data-aos="fade-up"
+              >
+                <div class="black-overlay"></div>
+                <div class="logo-company resturant-logo">
+                  <img src="images/whyn-logo.svg" alt="amani-logo" />
+                </div>
+              </div>
+              <div class="why-card partner-card-custom mt-5" data-aos="fade-up">
+                <div class="black-overlay"></div>
+                <div class="logo-company why-logo">
+                  <img src="images/w-logo.svg" alt="amani-logo" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- testing  -->
+      <!-- <section class="image">
+      <div>
+        <img id="grow" src="images/laptop.png" />
+      </div>
+      <h1 id="grow-tagline" class="tagline">At Vero Eos</h1>
+    </section> -->
+      <!-- testing ends  -->
+      <!-- CUSTOMER SECTION -->
+      <div class="customers-parent">
+        <section class="customers overflow-hidden">
+          <div class="heading" data-aos="fade-up">
+            <h2>Privileged to serve</h2>
+            <h3>your loyalty clients</h3>
+            <h3 class="universe">exclusively</h3>
+          </div>
+          <div class="orang-bg-img"></div>
+          <div class="grow-img">
+            <div id="grow">
+              <div class="zoom-able mt-5">
+                <div
+                  class="fixed-width tagline"
+                  id="grow-tagline"
+                  data-aos="fade-up"
+                >
+                  <h2>Indulge in the ultimate</h2>
+                  <h2>
+                    app experience <br /><span>they’ve always craved</span>
+                  </h2>
+                  <p class="mt-2">
+                    Unlock a world of exclusive content, personalized
+                    experiences, and private connections that will leave your
+                    clients craving for more. With real-time notifications,
+                    event ticketing, and loyalty points tracking at their
+                    fingertips, they will be immersed in luxury and convenience
+                    like never before. Let Apprivilege elevates your brand
+                    loyalty to the next level.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- owl caresoul section -->
+      <section class="event-section">
+        <div class="sldider-title">
+          <div class="container pt-5 responsive-padding" data-aos="fade-up">
+            <h2 class="mt-5">
+              Event organizers enjoy advanced control with the realticket
+              <span> Total Event Control Platform</span>
+            </h2>
+          </div>
+          <div class="MuiBox-root css-ary8su mt-5">
+            <div class="MuiBox-root css-1acq2gm">
+              <div class="owl-carousel owl-theme custom-owl-class">
+                <div class="item" data-aos="fade-up">
+                  <h3>Personalized</h3>
+                  <h3 class="color-text">for event goers</h3>
+                </div>
+                <div class="item" data-aos="fade-up">
+                  <h3>Event mapping</h3>
+                  <h3>and navigation capabilities</h3>
+                </div>
+                <div class="item" data-aos="fade-up">
+                  <h3 class="green-text">RealBackup eliminates</h3>
+                  <h3>the fear of lost tickets</h3>
+                </div>
+                <div class="item" data-aos="fade-up">
+                  <h3 class="blue-text">Real-time metrics</h3>
+                  <h3>with Detailed customer analytics</h3>
+                </div>
+                <div class="item" data-aos="fade-up">
+                  <h3 class="creme-color">Control over</h3>
+                  <h3>fee-gouging</h3>
+                </div>
+              </div>
+            </div>
+            <div class="MuiBox-root css-17b1o8v" data-aos="fade-up">
+              <img src="images/laptop.png" alt="laptop" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+        <!-- table section -->
+        <div class="table-responsive price_section" data-aos="fade-up">
+          <div class="table-row__contents is--header">
+            <div class="table-item is--spacer hide-tablet"></div>
+            <div class="table-item is--header" data-aos="fade-up">
+              <!-- <img -->
+              <!-- src="images/sable-master-card.PNG" -->
+              <!-- alt="card image" -->
+              <!-- class="img-fluid" -->
+              <!-- /> -->
+              <div class="table-header__title">
+                <div class="max-width-xsmall">
+                  <h3 class="text-color-accent2">The Freemium Pack</h3>
+                </div>
+              </div>
+            </div>
+            <div class="table-item is--header" data-aos="fade-right">
+              <!-- <img -->
+              <!-- src="images/sable-debit-card.PNG" -->
+              <!-- alt="card" -->
+              <!-- class="img-fluid" -->
+              <!-- /> -->
+              <div class="table-header__title">
+                <div class="max-width-xsmall">
+                  <h3 class="text-color-accent2">Private Label</h3>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="table-item is--spacer hide-tablet"></div> -->
+            <div class="table-item is--header" data-aos="fade-down">
+              <!-- <img -->
+              <!-- src="images/sable-master-card.PNG" -->
+              <!-- alt="card" -->
+              <!-- class="img-fluid" -->
+              <!-- /> -->
+              <div class="table-header__title">
+                <div class="max-width-xsmall">
+                  <h3 class="text-color-accent2">Eneterprise</h3>
+                </div>
+              </div>
+            </div>
+            <div class="table-item is--header" data-aos="fade-left">
+              <!-- <img -->
+              <!-- src="images/sable-debit-card.PNG" -->
+              <!-- alt="card image" -->
+              <!-- class="img-fluid" -->
+              <!-- /> -->
+              <div class="table-header__title">
+                <div class="max-width-xsmall">
+                  <h3 class="text-color-accent2">The Privilege Pack</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- content-1 -->
+          <div class="table-row__contents border-top mt-5">
+            <div class="table-item is-left text-start" data-aos="fade-left">
+              <h4 class="text-size-small text-weight-normal">
+                No monthly fees or minimum balance
+              </h4>
+            </div>
+            <div class="table-item" data-aos="fade-left">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-up">
+              <div class="table-icon">
+                <div class="icon w-embed" data-aos="fade-up">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-left">
+              <div class="table-icon">
+                <div class="icon w-embed" data-aos="fade-up">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-down">
+              <div class="table-icon">
+                <div class="icon w-embed" data-aos="fade-up">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- content-2 -->
+          <div class="table-row__contents">
+            <div class="table-item is-left text-start" data-aos="fade-left">
+              <h4 class="text-size-small text-weight-normal">
+                Deposits FDIC insured up to $250,000
+              </h4>
+            </div>
+            <div class="table-item" data-aos="fade-up">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-down">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-left">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-right">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- content-2 -->
+          <div class="table-row__contents">
+            <div class="table-item is-left text-start">
+              <h4
+                class="text-size-small text-weight-normal"
+                data-aos="fade-left"
+              >
+                Rewards, cash back & card perks
+              </h4>
+            </div>
+            <div class="table-item" data-aos="fade-down">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-up">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-right">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-left">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- content-3 -->
+          <div class="table-row__contents">
+            <div class="table-item is-left text-start" data-aos="fade-left">
+              <h4 class="text-size-small text-weight-normal">
+                Send checks & transfer money for free
+              </h4>
+            </div>
+            <div class="table-item" data-aos="fade-down">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-right">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-up">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-left">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- content-4 -->
+          <div class="table-row__contents">
+            <div class="table-item is-left text-start" data-aos="fade-left">
+              <h4 class="text-size-small text-weight-normal">
+                Build credit history from Day 1
+              </h4>
+            </div>
+            <div class="table-item" data-aos="fade-up">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-right">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-down">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-left">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- content-5 -->
+          <div class="table-row__contents">
+            <div class="table-item is-left text-start" data-aos="fade-left">
+              <h4 class="text-size-small text-weight-normal">
+                No credit check required for sign up
+              </h4>
+            </div>
+            <div class="table-item" data-aos="fade-up">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-right">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-down">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-left">
+              <div class="table-icon">
+                <div class="icon w-embed">
+                  <svg
+                    width="100%"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.8479 3L19.2961 4.44828L8.19951 15.5444L8.2069 15.5517L6.75862 17L6.75077 16.9931L6.74441 17L5.29613 15.5517L5.30203 15.5444L0 10.2414L1.44828 8.7931L6.75077 14.0956L17.8479 3Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- content-6 -->
+          <div class="table-row__contents">
+            <div class="table-item is-left text-start" data-aos="fade-left">
+              <h4 class="text-size-small text-weight-normal">Cost per year</h4>
+            </div>
+            <div class="table-item" data-aos="fade-down">
+              <div class="margin-auto-right">
+                <h5 class="table-row__number">
+                  $0<sup class="table-row__number-per">/year</sup>
+                </h5>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-right">
+              <div class="margin-auto-right">
+                <h5 class="table-row__number">
+                  $0<sup class="table-row__number-per">/year</sup>
+                </h5>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-left">
+              <div class="margin-auto-right">
+                <h5 class="table-row__number">
+                  $0<sup class="table-row__number-per">/year</sup>
+                </h5>
+              </div>
+            </div>
+            <div class="table-item" data-aos="fade-up">
+              <div class="margin-auto-right">
+                <h5 class="table-row__number">
+                  $0<sup class="table-row__number-per">/year</sup>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- table section end -->
+        <!-- review caresoul start -->
+        <div class="container">
+          <div class="row rating-bg mt-5">
+            <div class="col-6 p-0 mob-width padding-12" data-aos="fade-left">
+              <div class="review-text">
+                <h3>APPRIVILEGE CUSTOMER REVIEWS</h3>
+              </div>
+            </div>
+            <!--<div class="col-6 mob-width" data-aos="fade-right">
+              <div class="review-detail">
+                <h4 class="heading-xsmall">Trusted by over 400,000 accounts</h4>
+                <div class="d-flex mt-4">
+                  <h1>4.8</h1>
+                  <div class="ms-4 mt-4 icon-margin">
+                    <div class="rating-icons">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <span> Score on App Store</span>
+                  </div>
+                </div>
+              </div>
+            </div>-->
+          </div>
+        </div>
+        <!-- Swiper slider -->
+        <div class="container-fluid pb-5" data-aos="fade-up">
+          <swiper-container
+            class="mySwiper"
+            dots="false"
+            pagination="false"
+            space-between="30"
+            slides-per-view="2"
+            breakpoints="true"
+          >
+            >
+            <!-- slide-1 -->
+            <swiper-slide>
+              <div class="review-card">
+                <div class="review-icon">
+                  <div class="review-icon">
+                    <svg
+                      width="100%"
+                      viewBox="0 0 40 32"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M17.7777 19.9999V4.44443C17.7777 1.98984 15.7879 0 13.3333 0H4.44443C1.98984 0 0 1.98984 0 4.44443V13.3333C0 15.7879 1.98984 17.7777 4.44443 17.7777H11.1111V19.9999C11.1523 22.1524 9.64493 24.025 7.53331 24.4444C7.04066 24.5551 6.68465 24.9842 6.66665 25.4888V29.9333C6.65013 30.2781 6.7887 30.6124 7.04443 30.8444C7.2808 31.055 7.59717 31.1524 7.91109 31.111C13.5571 30.4748 17.8135 25.6816 17.7777 19.9999ZM26.6671 0H35.556C38.0105 0 40.0004 1.98984 40.0004 4.44443V19.9999C40.0247 25.6731 35.7713 30.4535 30.1337 31.0888C29.8198 31.1302 29.5035 31.0328 29.2671 30.8221C29.0291 30.6055 28.8921 30.2995 28.8893 29.9777V25.5333C28.887 25.0119 29.2474 24.5591 29.756 24.4444C31.8676 24.025 33.375 22.1524 33.3337 19.9999V17.7777H26.6671C24.2125 17.7777 22.2227 15.7879 22.2227 13.3333V4.44443C22.2227 1.98984 24.2125 0 26.6671 0Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="review-content">
+                  <div class="margin-bottom-2em">
+                    <blockquote class="text-style-quote">
+                      Fantastic customer service. I shifted from a traditional
+                      bank to Sable [and] Sable’s customer service helped me
+                      answer all the questions that I needed to switch.
+                    </blockquote>
+                  </div>
+                  <div class="review-details">
+                    <div class="review-dash"></div>
+                    <div class="review-name">K Oiwake</div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <!-- slide-2 -->
+            <swiper-slide>
+              <div class="review-card">
+                <div class="review-icon">
+                  <div class="review-icon">
+                    <svg
+                      width="100%"
+                      viewBox="0 0 40 32"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M17.7777 19.9999V4.44443C17.7777 1.98984 15.7879 0 13.3333 0H4.44443C1.98984 0 0 1.98984 0 4.44443V13.3333C0 15.7879 1.98984 17.7777 4.44443 17.7777H11.1111V19.9999C11.1523 22.1524 9.64493 24.025 7.53331 24.4444C7.04066 24.5551 6.68465 24.9842 6.66665 25.4888V29.9333C6.65013 30.2781 6.7887 30.6124 7.04443 30.8444C7.2808 31.055 7.59717 31.1524 7.91109 31.111C13.5571 30.4748 17.8135 25.6816 17.7777 19.9999ZM26.6671 0H35.556C38.0105 0 40.0004 1.98984 40.0004 4.44443V19.9999C40.0247 25.6731 35.7713 30.4535 30.1337 31.0888C29.8198 31.1302 29.5035 31.0328 29.2671 30.8221C29.0291 30.6055 28.8921 30.2995 28.8893 29.9777V25.5333C28.887 25.0119 29.2474 24.5591 29.756 24.4444C31.8676 24.025 33.375 22.1524 33.3337 19.9999V17.7777H26.6671C24.2125 17.7777 22.2227 15.7879 22.2227 13.3333V4.44443C22.2227 1.98984 24.2125 0 26.6671 0Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="review-content">
+                  <div class="margin-bottom-2em">
+                    <blockquote class="text-style-quote">
+                      Fantastic customer service. I shifted from a traditional
+                      bank to Sable [and] Sable’s customer service helped me
+                      answer all the questions that I needed to switch.
+                    </blockquote>
+                  </div>
+                  <div class="review-details">
+                    <div class="review-dash"></div>
+                    <div class="review-name">K Oiwake</div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <!-- slide-3 -->
+            <swiper-slide>
+              <div class="review-card">
+                <div class="review-icon">
+                  <div class="review-icon">
+                    <svg
+                      width="100%"
+                      viewBox="0 0 40 32"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M17.7777 19.9999V4.44443C17.7777 1.98984 15.7879 0 13.3333 0H4.44443C1.98984 0 0 1.98984 0 4.44443V13.3333C0 15.7879 1.98984 17.7777 4.44443 17.7777H11.1111V19.9999C11.1523 22.1524 9.64493 24.025 7.53331 24.4444C7.04066 24.5551 6.68465 24.9842 6.66665 25.4888V29.9333C6.65013 30.2781 6.7887 30.6124 7.04443 30.8444C7.2808 31.055 7.59717 31.1524 7.91109 31.111C13.5571 30.4748 17.8135 25.6816 17.7777 19.9999ZM26.6671 0H35.556C38.0105 0 40.0004 1.98984 40.0004 4.44443V19.9999C40.0247 25.6731 35.7713 30.4535 30.1337 31.0888C29.8198 31.1302 29.5035 31.0328 29.2671 30.8221C29.0291 30.6055 28.8921 30.2995 28.8893 29.9777V25.5333C28.887 25.0119 29.2474 24.5591 29.756 24.4444C31.8676 24.025 33.375 22.1524 33.3337 19.9999V17.7777H26.6671C24.2125 17.7777 22.2227 15.7879 22.2227 13.3333V4.44443C22.2227 1.98984 24.2125 0 26.6671 0Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="review-content">
+                  <div class="margin-bottom-2em">
+                    <blockquote class="text-style-quote">
+                      Fantastic customer service. I shifted from a traditional
+                      bank to Sable [and] Sable’s customer service helped me
+                      answer all the questions that I needed to switch.
+                    </blockquote>
+                  </div>
+                  <div class="review-details">
+                    <div class="review-dash"></div>
+                    <div class="review-name">K Oiwake</div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <!-- slide-4 -->
+            <swiper-slide>
+              <div class="review-card">
+                <div class="review-icon">
+                  <div class="review-icon">
+                    <svg
+                      width="100%"
+                      viewBox="0 0 40 32"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M17.7777 19.9999V4.44443C17.7777 1.98984 15.7879 0 13.3333 0H4.44443C1.98984 0 0 1.98984 0 4.44443V13.3333C0 15.7879 1.98984 17.7777 4.44443 17.7777H11.1111V19.9999C11.1523 22.1524 9.64493 24.025 7.53331 24.4444C7.04066 24.5551 6.68465 24.9842 6.66665 25.4888V29.9333C6.65013 30.2781 6.7887 30.6124 7.04443 30.8444C7.2808 31.055 7.59717 31.1524 7.91109 31.111C13.5571 30.4748 17.8135 25.6816 17.7777 19.9999ZM26.6671 0H35.556C38.0105 0 40.0004 1.98984 40.0004 4.44443V19.9999C40.0247 25.6731 35.7713 30.4535 30.1337 31.0888C29.8198 31.1302 29.5035 31.0328 29.2671 30.8221C29.0291 30.6055 28.8921 30.2995 28.8893 29.9777V25.5333C28.887 25.0119 29.2474 24.5591 29.756 24.4444C31.8676 24.025 33.375 22.1524 33.3337 19.9999V17.7777H26.6671C24.2125 17.7777 22.2227 15.7879 22.2227 13.3333V4.44443C22.2227 1.98984 24.2125 0 26.6671 0Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="review-content">
+                  <div class="margin-bottom-2em">
+                    <blockquote class="text-style-quote">
+                      Fantastic customer service. I shifted from a traditional
+                      bank to Sable [and] Sable’s customer service helped me
+                      answer all the questions that I needed to switch.
+                    </blockquote>
+                  </div>
+                  <div class="review-details">
+                    <div class="review-dash"></div>
+                    <div class="review-name">K Oiwake</div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <!-- slide-5 -->
+            <swiper-slide>
+              <div class="review-card">
+                <div class="review-icon">
+                  <div class="review-icon">
+                    <svg
+                      width="100%"
+                      viewBox="0 0 40 32"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M17.7777 19.9999V4.44443C17.7777 1.98984 15.7879 0 13.3333 0H4.44443C1.98984 0 0 1.98984 0 4.44443V13.3333C0 15.7879 1.98984 17.7777 4.44443 17.7777H11.1111V19.9999C11.1523 22.1524 9.64493 24.025 7.53331 24.4444C7.04066 24.5551 6.68465 24.9842 6.66665 25.4888V29.9333C6.65013 30.2781 6.7887 30.6124 7.04443 30.8444C7.2808 31.055 7.59717 31.1524 7.91109 31.111C13.5571 30.4748 17.8135 25.6816 17.7777 19.9999ZM26.6671 0H35.556C38.0105 0 40.0004 1.98984 40.0004 4.44443V19.9999C40.0247 25.6731 35.7713 30.4535 30.1337 31.0888C29.8198 31.1302 29.5035 31.0328 29.2671 30.8221C29.0291 30.6055 28.8921 30.2995 28.8893 29.9777V25.5333C28.887 25.0119 29.2474 24.5591 29.756 24.4444C31.8676 24.025 33.375 22.1524 33.3337 19.9999V17.7777H26.6671C24.2125 17.7777 22.2227 15.7879 22.2227 13.3333V4.44443C22.2227 1.98984 24.2125 0 26.6671 0Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="review-content">
+                  <div class="margin-bottom-2em">
+                    <blockquote class="text-style-quote">
+                      Fantastic customer service. I shifted from a traditional
+                      bank to Sable [and] Sable’s customer service helped me
+                      answer all the questions that I needed to switch.
+                    </blockquote>
+                  </div>
+                  <div class="review-details">
+                    <div class="review-dash"></div>
+                    <div class="review-name">K Oiwake</div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+        <!-- Language chages -->
+        <div class="container" data-aos="fade-up">
+          <div class="mt-5 mb-5 custom-language-card">
+            <div>
+              <div class="random-word text-center"></div>
+              <h1>Making every place feel familier</h1>
+            </div>
+            <div class="card-back-image-2 pcard-img"></div>
+          </div>
+          <!-- news letter -->
+          <div
+            class="newsletter pb-5 mt-5 pt-5 responsive-padding"
+            data-aos="fade-up"
+          >
+            <h3 class="mt-4">It’s time to go live</h3>
+            <p>Be the first to know when realticket is coming to your town.</p>
+            <div class="news-letter-input">
+              <input type="text" placeholder="Enter your e-mail" />
+              <button>Request demo</button>
+            </div>
+          </div>
+          <div class="pb-5" data-aos="fade-up">
+            <section class="last-vedio">
+              <div class="bg-video-wrap">
+                <video
+                  src="https://assets.website-files.com/619778d1f338092c00a38573/61b74fe90ebb16e44e0024c6_sable-footer-transcode.webm"
+                  data-wf-ignore="true"
+                  loop
+                  muted
+                  autoplay
+                ></video>
+                <div class="overlay"></div>
+                <div class="vedi-icons">
+                  <i class="fa-solid fa-earth-americas"></i>
+                </div>
+                <div class="vedio-text">
+                  <h6>Join <strong> Apprivilege</strong> today</h6>
+                  <p>Download Apprivilege: That's I.T.</p>
+                </div>
+                <div class="play-btn d-flex">
+                  <a href="">
+                    <img
+                      src="images/google-play.svg"
+                      alt="google-play"
+                      class="img-fluid"
+                  /></a>
+                  <a href="">
+                    <img
+                      src="images/app-srore.svg"
+                      alt="ap-store"
+                      class="img-fluid"
+                  /></a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-------- MAIN SECTION END -------->
+    <footer class="footer">
+      <div class="container pb-5">
+        <div class="row pt-5 border-bottom">
+          <div class="col-4" data-aos="fade-up">
+            <div class="footer-title">
+              Apprivilege
+              <!--<p class="mt-3">Sable ONE Credit</p>
+              <p>Credit Score <span class="blue-text"> Coming Soon</span></p>-->
+              <ul class="footer-list mt-4 p-0">
+                <!--<li>Sable Debit</li>-->
+                <li>App</li>
+                <li>Learn</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-4" data-aos="fade-up">
+            <div class="footer-title">
+              Contact
+              <p class="mt-3">Email: support@apprivilege.com</p>
+              <p>Location: New York, NY</p>
+            </div>
+          </div>
+          <div class="col-4 d-flex justify-content-end" data-aos="fade-up">
+            <div class="footer-height">
+              <a
+                href="/"
+                aria-current="page"
+                class="footer-brand w-inline-block w--current"
+              >
+                <div class="icon w-embed">
+                  <img src="images/Apprivilege_logo.png" class="img-fluid" />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-4 mb-4" data-aos="fade-up">
+            <ul class="footer-menu p-0">
+              <li>FAQs</li>
+              <li>About Apprivilege</li>
+            </ul>
+          </div>
+          <div class="col-4 d-flex align-items-center" data-aos="fade-up">
+            <div class="d-flex">
+              <div class="footer-social-icon">
+                <i class="fa-brands fa-facebook-f ms-0"></i>
+              </div>
+              <div class="footer-social-icon">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div class="footer-social-icon">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div class="footer-social-icon">
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+              <div class="footer-social-icon">
+                <i class="fa-brands fa-tiktok"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-4 d-flex justify-content-end mob-width align-items-center"
+            data-aos="fade-up"
+          >
+            <div class="footer-address">
+              <p>
+                © Apprivilege is a part of My Ego B.V., All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--  <div class="privacy-text col-11 mt-4" data-aos="fade-up">
+          <p>Privacy policy | Terms and conditions</p>
+          <!--<p class="mt-3">
+            *Banking services provided by Coastal Community Bank, Member FDIC,
+            pursuant to license by Mastercard International Inc. Sable account
+            is FDIC-insured up to $250,000 per depositor through Coastal
+            Community Bank, Member FDIC. **If you are not a U.S. citizen, you
+            can apply with your passport and U.S. Visa. Please note: you must
+            submit an SSN once you receive one. If you are a U.S. citizen, SSN
+            is required to open a bank account. *** Double cashback bonus
+            (through 12/2022)
+          </p>
+          <p>
+            1. Please see www.sablecard.com/terms-and-conditions#creditrnb for
+            terms and conditions. Some exclusions apply.
+          </p>
+          <p>
+            2. Please see www.sablecard.com/terms-and-conditions for terms and
+            conditions.
+          </p>
+          <p>
+            3. This benefit is provided by MasterCard. Benefits are subject to
+            terms, conditions and limitations, including limitations on the
+            amount of coverage. Please see the terms and conditions.
+          </p>
+          <p>4. Sable estimated annual value</p>
+          <p>5. Sable product comparisons</p>
+          <p>† Sable Remittance Best Rate Guarantee Terms</p>-->
+        <!--  </div>-->
+      </div>
+    </footer>
+    <!-- <span class="bubble"> <img src="images/mouse.PNG" alt="mouse" class=""> </span> -->
+    <!-- Modal -->
+    <div
+      class="modal fade vedio-modal"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true" 
+    >
+      <div class="modal-dialog ">
+        <div class="">
+          <div class="d-flex justify-content-end m-3">
+            <button
+              type="button"
+              class="btn-close text-light"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="">
+            <div class="">
+              <video id="player" preload="auto" loop="loop" muted>
+                <source
+                  src="https://assets.mixkit.co/videos/preview/mixkit-flying-through-the-clouds-with-the-radiant-sun-14171-large.mp4"
+                  type="video/mp4"
+                />
+                <source src="movie.ogg" type="video/ogg" />
+                Your browser does not support the video tag.
+              </video>
+              
+              <!-- <a id="play" class="tap" href="javascript:void(0);">PLAY VIDEO</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Aos Animation cdn -->
+    <!-- <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script> -->
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        disable: function () {
+          var maxWidth = 800;
+          return window.innerWidth < maxWidth;
+        },
+      });
+
+      // AOS.init({
+      //    offset: 200,
+      //    duration: 600,
+      //    easing: 'ease-in-sine',
+      //    delay: 100,
+      //  });
+    </script>
+    <!-- swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <!-- OWL CDN -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".owl-custom").owlCarousel({
+        loop: true,
+        autoplay: true,
+        margin: false,
+        nav: false,
+        dots: false,
+        responsive: {
+          0: {
+            items: 3,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+    <script type="text/JavaScript">
+         $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+         //  nav:true,
+          autoplay: false,
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:1
+              },
+              1000:{
+                  items:1
+              }
+          }
+      });
+    </script>
+    <!--------- BOOTSTRAP SCRIPTS------ -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollToPlugin.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/JavaScript" src="js/custom.js"></script>
+    <script>
+      // gsap.to(".image-scroll", {
+      //   scrollTrigger: {
+      //     trigger: ".image-scroll",
+      //     start: "left bottom",
+      //     end: "right top",
+      //     scrub: 10,
+      //     markers: true
+      //   },
+      //   x: 850,
+      // });
+      const growTl = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#grow",
+          scrub: 0.5,
+          start: "top center",
+          end: "+=300",
+          ease: "power1.in",
+        },
+      });
+      growTl.to("#grow", {
+        duration: 1,
+        scale: 1.05,
+      });
+      growTl.to("#grow-tagline", {
+        duration: 0.3,
+        delay: -0.9,
+        opacity: 1,
+        y: 0,
+      });
+      const shrinkTl = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#shrink",
+          scrub: 1.5,
+          start: "top center",
+          end: "+=400",
+          ease: "power1.in",
+        },
+      });
+      shrinkTl.to("#shrink", {
+        duration: 2,
+        scale: 0.8,
+        filter: "blur(0px)",
+      });
+      shrinkTl.to("#shrink-tagline", {
+        duration: 0.4,
+        delay: -0.7,
+        opacity: 1,
+        y: 0,
+        ease: "power2.out",
+      });
+      gsap.to(".image-card ", {
+        scrollTrigger: {
+          trigger: "#scrollWrap",
+          pin: true, // pin the trigger element while active
+          start: "center center", // when the top of the trigger hits the top of the viewport
+          end: "+=850", // end after scrolling 500px beyond the start
+          // markers: {startColor: "red", endColor: "red", fontSize: "18px", fontWeight: "bold", indent: 20},
+          pinSpacing: true,
+          fastScrollEnd: true,
+          scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+        },
+        x: -925,
+      });
+    </script>
+  </body>
+</html>
